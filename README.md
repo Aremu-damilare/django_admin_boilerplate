@@ -70,5 +70,7 @@ This project is licensed under the MIT License.
 Contributions are welcome! Feel free to submit a pull request or open an issue.
 
 ## 📧 Contact
-For questions or support, reach out via [GitHub Issues](https://github.com/your-repo/issues).
+For questions or support, reach out via [GitHub Issues](https://github.com/Aremu-damilare/django_admin_boilerplate).
+
+[PYPI homepage](https://pypi.org/project/django-admin-boilerplate/)
 
