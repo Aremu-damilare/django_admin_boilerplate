@@ -1,8 +1,8 @@
 Metadata-Version: 2.2
 Name: django_admin_boilerplate
-Version: 0.1.1
+Version: 0.1.4
 Summary: A boilerplate for Django admin dashboards
-Author-email: Aremu damilare <a.matthew2013@gmail.com>
+Author-email: Aremu Damilare <a.matthew2013@gmail.com>
 License: MIT License
         
         Copyright (c) 2025 Your Name
