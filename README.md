@@ -93,7 +93,7 @@ Your_Django_Project/
 ---
 
 ## 📸 Screenshot (Project Root)
-![Screenshot](./image.png)  
+![Screenshot](./screenshot.png)  
 
 
 ---
