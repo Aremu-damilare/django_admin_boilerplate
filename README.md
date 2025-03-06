@@ -12,7 +12,7 @@
 
 ## 📦 Installation
 
-1. Install via pip:
+1. Install via pip (run this command from your Django project root):
    ```sh
    pip install django-admin-boilerplate
    ```
@@ -33,7 +33,7 @@
    from django.urls import path, include
 
    urlpatterns = [
-       path("admin-dashboard/", include("django_admin_boilerplate.urls")),
+       path("", include("django_admin_boilerplate.urls")),
    ]
    ```
 
@@ -51,15 +51,57 @@
    python manage.py createsuperuser
    ```
 
-3. Start the Django server:
+3. Install the boilerplate (this moves `django_admin_boilerplate` to your Django root folder for customization):
+   ```sh
+   python manage.py install_boilerplate
+   ```
+
+4. Start the Django server:
    ```sh
    python manage.py runserver
    ```
 
-4. Access the admin dashboard at:
+5. Access the admin dashboard at:
    ```
    http://127.0.0.1:8000/admin-dashboard/
    ```
+
+---
+
+## 🎨 Customization
+Once the boilerplate is installed, you are free to customize:
+- `views.py` for custom admin logic.
+- `templates/` for styling and UI updates.
+- `static/` for custom CSS, JavaScript, or images.
+
+---
+
+## 📂 Expected File Structure
+
+```
+Your_Django_Project/
+├── manage.py
+├── sqldb/
+├── djangoadminboilerplate/   # Installed boilerplate folder
+│   ├── views.py
+│   ├── templates/
+│   ├── static/
+│   ├── urls.py
+│   ├── ...
+```
+
+---
+
+## 📸 Screenshot (Project Root)
+![Screenshot](./image.png)  
+
+
+---
+
+## 🚀 TODO / Contribution Ideas
+
+1. **Enhance UI:** Improve default admin panel styling and layout.
+2. **Add User Roles:** Implement granular user role management for dashboard access.
 
 ---
 
